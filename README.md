@@ -33,8 +33,10 @@ powershell -ExecutionPolicy Bypass -File .\build.ps1
 The packaged application is created at:
 
 ```text
-dist\AI-Tracking-FPS\AI-Tracking-FPS.exe
+dist\AI-Tracking-FPS.exe
 ```
+
+The output is a self-contained, single-file Windows executable. End users do not need Python or any additional dependencies installed.
 
 ## Default hotkeys
 

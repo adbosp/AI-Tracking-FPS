@@ -11,6 +11,7 @@ python -m PyInstaller `
     --noconfirm `
     --clean `
     --windowed `
+    --onefile `
     --name "AI-Tracking-FPS" `
     --icon ".\icon.ico" `
     --add-data ".\icon.ico;." `
@@ -18,4 +19,4 @@ python -m PyInstaller `
     --collect-all ultralytics `
     ".\person_tracker.py"
 
-Write-Host "Build complete: dist\AI-Tracking-FPS\AI-Tracking-FPS.exe"
+Write-Host "Build complete: dist\AI-Tracking-FPS.exe"
